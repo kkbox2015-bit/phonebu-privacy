@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隱私權政策 - 手機自動備份到TG雲端</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; padding: 24px; max-width: 800px; margin: auto; color: #333; }
+        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; color: #1a73e8; }
+        h2 { margin-top: 24px; color: #202124; }
+        p, li { font-size: 15px; }
+        .last-updated { color: #666; font-size: 13px; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <h1>隱私權政策 (Privacy Policy)</h1>
+    <div class="last-updated">最後更新日期：2026 年 9 月</div>
+
+    <p>歡迎使用 <strong>手機自動備份到TG雲端</strong>（以下簡稱「本應用程式」）。我們極度重視您的個人隱私與資料安全。本隱私權政策旨在向您清楚說明本應用程式如何處理、傳輸及保護您的資訊。</p>
+
+    <h2>1. 多媒體檔案與備份說明</h2>
+    <p>本應用程式的核心功能為檔案自動/手動備份工具：</p>
+    <ul>
+        <li><strong>無中間伺服器</strong>：開發者未架設任何私有伺服器儲存或轉傳您的任何照片、影片或個人檔案。</li>
+        <li><strong>直接傳輸</strong>：您所選取或自動偵測到的相片與影片，將透過加密通道<strong>直接由您的裝置傳輸至您自行設定的 Telegram 官方 API 與您所屬的頻道/群組</strong>。</li>
+    </ul>
+
+    <h2>2. 存取憑證與本機儲存</h2>
+    <p>為了使備份與上傳功能正常運作，本應用程式會要求您提供 Telegram 機器人金鑰（Bot Token）與目標群組編號（Chat ID）：</p>
+    <ul>
+        <li>所有金鑰與設定資訊<strong>僅儲存在您裝置的本機內部儲存空間（SharedPreferences）</strong>。</li>
+        <li>我們絕不會將您的 Bot Token、Chat ID 或任何憑證上傳至任何第三方伺服器或提供給開發者。</li>
+        <li>當您解除安裝本應用程式或清除資料時，上述所有本機設定將立即被徹底銷毀。</li>
+    </ul>
+
+    <h2>3. 系統分析與在線統計（Firebase）</h2>
+    <p>本應用程式使用 Google 提供的 <strong>Firebase Realtime Database</strong> 進行系統在線使用狀況分析：</p>
+    <ul>
+        <li><strong>完全匿名化</strong>：僅產生一組隨機亂數（UUID）用於統計目前連線總數，協助評估連線負載。</li>
+        <li><strong>不收集敏感識別碼</strong>：我們<strong>絕不收集</strong>任何個人身分資料、電話號碼、聯絡人、硬體識別碼（如 IMEI、MAC 位址、Android ID）或精確定位資訊。</li>
+    </ul>
+
+    <h2>4. 裝置權限使用目的</h2>
+    <ul>
+        <li><strong>相片與影片存取權限（READ_MEDIA_IMAGES / READ_MEDIA_VIDEO）</strong>：僅用於讀取您指定資料夾內的多媒體檔案，以便為您執行上傳與備份操作。</li>
+        <li><strong>前景服務權限（FOREGROUND_SERVICE）</strong>：用於在執行整批或背景備份時維持傳輸穩定，避免傳輸過程中斷。</li>
+        <li><strong>網際網路權限（INTERNET）</strong>：用於與 Telegram 官方 API 連線發送檔案，以及連線至 Firebase 匿名統計節點。</li>
+    </ul>
+
+    <h2>5. 資料刪除權利</h2>
+    <p>由於開發者伺服器未留存您的任何檔案與個人資料，若您欲停止使用或刪除所有相關設定，只需：</p>
+    <ol>
+        <li>於手機系統設定中清除本應用程式的儲存空間與快取，或直接解除安裝本應用程式。</li>
+        <li>您的 Telegram 頻道/群組內已上傳之內容，可由您於 Telegram 客戶端自行管理或刪除。</li>
+    </ol>
+
+    <h2>6. 政策更新與聯絡管道</h2>
+    <p>若我們對本隱私權政策有任何修改，將直接更新於本網頁。若您對本隱私權政策有任何疑問，歡迎隨時透過電子郵件與我們聯繫：kkbox2015@gmail.com<strong>您的聯絡Email</strong></p>
+</body>
+</html>
